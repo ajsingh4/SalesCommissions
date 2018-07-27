@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21248B10210AA39E001DC618 /* prompt.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = prompt.txt; sourceTree = "<group>"; };
 		21E157E82105285F001BFE16 /* SalesCommissions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SalesCommissions; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E157EB2105285F001BFE16 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		21E157F2210542B8001BFE16 /* salesdata.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = salesdata.txt; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				21E157EB2105285F001BFE16 /* main.cpp */,
+				21248B10210AA39E001DC618 /* prompt.txt */,
 				21E157F2210542B8001BFE16 /* salesdata.txt */,
 			);
 			path = SalesCommissions;

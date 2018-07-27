@@ -10,6 +10,7 @@
 #include <vector>
 #include <string>
 
+
 using namespace std;
 
 struct Employee{
@@ -19,8 +20,13 @@ struct Employee{
     int profit;
     int profitSum;
     double commission;
-    
+
 };
+
+//void getRevenues();
+//void getExpenses();
+//void calculateComissions();
+//void getCommissions();
 
 int main() {
     // Take in how how many members and products to create arrays of that size
@@ -73,6 +79,7 @@ int main() {
     }
     
     for (int i=0; i<numSales; i++){
-        cout << employee[i].name << "'s commission is " << employee[i].commission;
+        cout << employee[i].name << "'s commission is " << employee[i].commission << "\n";
     }
 }
+
